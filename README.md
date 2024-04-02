@@ -20,14 +20,18 @@ File: NoSQL_analysis_starter.ipynb
 Specific questions from Eat Safe, love magazine was answered by performing analysis on the updated data. Pandas DataFrame were also created for final results and better understanding.
 
 1. Which establishments have a hygiene score equal to 20?
+   
 Ans: 41 establishments have hygiene score of 20. A pandas DataFrame is created with these 41 establishments.
 
 2. Which establishments in London have a `RatingValue` greater than or equal to 4?
+   
 Ans: A total of 33 establishments in London have rating value of 4 or more. Regex is used for matching London in authority name.
 
 3.  What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+   
 Ans: Top 5 restaurants near Penang Flavours with maximum rating are extracted and arranged as per their hygiene score. The results are printed and displayed in pandas DataFrame too.
 
 4. How many establishments in each Local Authority area have a hygiene score of 0?
+   
 Ans: For this a pipeline through the aggregate method has been used. The results were group by local Authority name and sorted in descending order of their counts. 55 Local Authority have establishments with zero hygiene. Panadas DataFrame is created with the authority’s name and total no. of establishment with zero hygiene.
 
