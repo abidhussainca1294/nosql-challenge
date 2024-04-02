@@ -5,6 +5,7 @@ This project is performed for a food magazine, Eat Safe, Love to evaluate some o
 The project comprises of two parts:
 
 Part 1: Database and Jupyter Notebook Set Up and database update.
+
 File: NoSQL_setup_starter.ipynb
 
 1.  The data provided from UK Food standard Agency is imported from the terminal under the database name uk_food and the collection is named as establishments.
@@ -15,6 +16,7 @@ File: NoSQL_setup_starter.ipynb
 6. Data type for longitude and latitude were changed to decimals and rating value into integer.
 
 Part2: Exploratory Analysis
+
 File: NoSQL_analysis_starter.ipynb
 
 Specific questions from Eat Safe, love magazine was answered by performing analysis on the updated data. Pandas DataFrame were also created for final results and better understanding.
